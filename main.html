@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .container {
+            max-width: 1500px;
+        }
+        .card-image img {
+            height: 220px;
+            object-fit: cover;
+        }
+        .tabs .indicator {
+            background-color: #26a69a;
+        }
+        .card-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .social-links li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .profile-section img {
+            max-height: 220px;
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        /* New styles for work section */
+        .work-date {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .work-location {
+            color: #26a69a;
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+        .work-details li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        .card .card-content .card-title {
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Tabs -->
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a class="active" href="#about">About Me</a></li>
+                    <li class="tab col s3"><a href="#work">My Work</a></li>
+                    <li class="tab col s3"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- About Section -->
+            <div id="about" class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Who am I?</span>
+                        
+                        <div class="row profile-section">
+                            <div class="col s12 m4">
+                                <img src="/home/buddy/Pictures/project/IMG_20220627_223801.jpg" alt="Profile 1" class="responsive-img materialboxed">
+                                <p class="center-align">It's me</p>
+                            </div>
+                            <div class="col s12 m4">
+                                <img src="/home/buddy/Pictures/project/Snapchat-1863876122.jpg" alt="Profile 2" class="responsive-img materialboxed">
+                                <p class="center-align">Programmer</p>
+                            </div>
+                            <div class="col s12 m4">
+                                <img src="/home/buddy/Pictures/project/IMG-210230530-WA0015 .jpg" alt="Profile 3" class="responsive-img materialboxed">
+                                <p class="center-align">Artist</p>
+                            </div>
+                            <div class="col s12 m4">
+                                <img src="/home/buddy/Pictures/project/IMG_20241020_185319916_AE.jpg" alt="Profile 4" class="responsive-img materialboxed">
+                                <p class="center-align">Pet Lover</p>
+                            </div>
+                            <div class="col s12 m4">
+                                <img src="/home/buddy/Pictures/project/IMG_20241017_195516562_HDR~4.jpg" alt="Profile 5" class="responsive-img materialboxed">
+                                <p class="center-align">Festivalgoer</p>
+                            </div>
+                            <div class="col s12 m4">
+                                <img src="/home/buddy/Pictures/project/ter-cela-LYNQb3NA9WY-unsplash.jpg" alt="Profile 6" class="responsive-img materialboxed">
+                                <p class="center-align">Skater</p>
+                            </div>
+                        </div>
+
+                        <p>I am a passionate developer who loves to create and innovate.</p>
+                        <p>🤍</p>
+                        <p>For a glimpse into my projects and coding journey, visit my GitHub profile. You'll find a diverse range of work, including machine learning models, algorithm implementations, and software development projects that showcase my skills and dedication. Check it out on <a href="https://github.com/mrinal98-py">GitHub</a>.</p>
+                        <p></p>
+                        
+                        
+                        <ul class="social-links">
+                            <li><a href="https://drive.google.com/file/d/1-uV0s16cne5v0cfzaKYdaVkKOw_MVWSI/view?usp=sharing" target="_blank"><strong>Curriculum vitae</strong></a></li>
+                            <!-- <li><a href="https://www.instagram.com/" target="_blank"><strong>Instagram</strong></a></li> -->
+                            <li><a href="https://www.linkedin.com/in/mrinal-raj-8a3924203/" target="_blank"><strong>LinkedIn</strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Work Section -->
+            <div id="work" class="col s12">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title">Project Intern</span>
+                                <div class="work-date">September 2024 — October 2024</div>
+                                <div class="work-location">
+                                    <i class="material-icons tiny">location_on</i>
+                                    CSIR - National Aerospace Laboratories (NAL), Bengaluru
+                                </div>
+                                <ul class="work-details">
+                                    <li><i class="material-icons tiny">chevron_right</i> Utilized generative algorithms to create and refine meta atoms for specific EM spectra.</li>
+                                    <li><i class="material-icons tiny">chevron_right</i> Applied thresholding and morphological operations to post-process and clean ML-generated images.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title">TechBairn</span>
+                                <div class="work-date">March 2023 — July 2023 </div>
+                                <div class="work-location">
+                                    <i class="material-icons tiny">location_on</i>
+                                    India
+                                </div>
+                                <ul class="work-details">
+                                    <li>
+                                        <div class="work-role">
+                                            <strong>Operations Team Member</strong>
+                                            <div class="work-date" style="font-size: 0.9rem">March 2023 - July 2023 · 5 mos</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="work-role">
+                                            <strong>Marketing and Operations</strong>
+                                            <div class="work-date" style="font-size: 0.9rem">March 2023 - June 2023 · 4 mos</div>
+                                            <div class="work-location">
+                                                <i class="material-icons tiny">computer</i>
+                                                Remote
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title">Back End Developer</span>
+                                <div class="work-date">July 2023 </div>
+                                <div class="work-location">
+                                    <i class="material-icons tiny">business</i>
+                                    SAER Technologies Private Limited
+                                </div>
+                                <div class="work-location">
+                                    <i class="material-icons tiny">computer</i>
+                                    Remote, India
+                                </div>
+                                <ul class="work-details">
+                                    <li>
+                                        <i class="material-icons tiny">chevron_right</i>
+                                        Developed and maintained the back end of a web application using PHP.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                   <!-- Contact Section -->
+                   <div id="contact" class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Get in touch</span>
+                            <p>I am always open to opportunities to lend a helping hand. Whether you have a collaborative project in mind or need assistance with your endeavors, I am here to support and contribute. Please feel free to reach out to discuss how we can work together.</p>
+                            <div class="row">
+                                <div class="col s12">
+                                    <ul class="collapsible">
+                                        <li>
+                                            <div class="collapsible-header">
+                                                <i class="material-icons">email</i>Contact Information
+                                            </div>
+                                            <div class="collapsible-body">
+                                                <p>Presonal Email: mrinal98raj@gmail.com</p>
+                                                <p>Student Email: 21051745@kiit.ac.in</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="collapsible-header">
+                                                <i class="material-icons">work</i>Work Inquiries
+                                            </div>
+                                            <div class="collapsible-body">
+                                                <p>As a student currently immersed in my studies, I am enthusiastically learning new technologies and honing my skills. My passion for innovation and problem-solving drives me to explore various facets of the tech industry. I am excited about the prospect of joining the IT industry, where I can apply my knowledge, contribute to impactful projects, and continue to grow both personally and professionally.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize Materialize components
+            var tabs = document.querySelectorAll('.tabs');
+            M.Tabs.init(tabs);
+            
+            var collapsibles = document.querySelectorAll('.collapsible');
+            M.Collapsible.init(collapsibles);
+            
+            var materialboxed = document.querySelectorAll('.materialboxed');
+            M.Materialbox.init(materialboxed);
+        });
+    </script>
+</body>
+</html>
